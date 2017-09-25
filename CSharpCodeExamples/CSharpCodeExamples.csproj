@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Encapsulation\InternalAcess.cs" />
     <Compile Include="Encapsulation\PrivateAccess.cs" />
+    <Compile Include="Encapsulation\ProtectedAccess.cs" />
     <Compile Include="Encapsulation\PublicAccess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

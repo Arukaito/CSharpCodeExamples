@@ -1,18 +1,18 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="InternalAcess.cs" company="Alkaworks">
-//   
+// <copyright file="ProtectedAccess.cs" company="Alkaworks">
+//   Copyright (c) Alkaworks. All rights reserved. This program is educational purpose only
 // </copyright>
 // <summary>
-//   Defines the InternalAcess type.
+//   Defines the ProtectedAccess type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace CSharpCodeExamples.Encapsulation
 {
     /// <summary>
-    /// The internal access.
+    /// The protected access.
     /// </summary>
-    public class InternalAcess
+    public class ProtectedAccess
     {
     }
 }

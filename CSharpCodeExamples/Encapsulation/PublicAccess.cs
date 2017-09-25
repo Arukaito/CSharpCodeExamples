@@ -1,10 +1,9 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Encapsulation.cs" company="Alkaworks">
-//   This program is for example only
+// <copyright file="PublicAccess.cs" company="Alkaworks">
+//   Copyright (c) Alkaworks. All rights reserved. This program is educational purpose only
 // </copyright>
 // <summary>
-//   Defines the example of an public access modifier
-//   Wich can be accessed from every part of the program
+//   Defines the Public Access example of an public access modifier.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -65,9 +64,10 @@ namespace CSharpCodeExamples.Encapsulation
         public void Display()
         {
             // Verbatim Interpolation
-            Console.Write($@"Largo: {this.Largo}");
-            Console.Write($@"Largo: {this.Ancho}");
-            Console.Write(this.Area().ToString());
+            Console.WriteLine($@"Largo: {this.Largo}");
+            Console.WriteLine($@"Largo: {this.Ancho}");
+            Console.WriteLine(this.Area().ToString());
+            Console.ReadLine();
         }
 
         // Termina la clase rectangulo
