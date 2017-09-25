@@ -3,15 +3,14 @@
 //   This program is for example only
 // </copyright>
 // <summary>
-//   Defines the Rectangulo type.
+//   Defines the example of an public access modifier
+//   Wich can be accessed from every part of the program
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace CSharpCodeExamples.Encapsulation
 {
     using System;
-    using System.Windows.Forms;
-
 
     /// <summary>
     /// Encapsulation example it serves as an example of public access modifiers and operators
@@ -66,9 +65,9 @@ namespace CSharpCodeExamples.Encapsulation
         public void Display()
         {
             // Verbatim Interpolation
-            MessageBox.Show($@"Largo: {this.Largo}");
-            MessageBox.Show($@"Largo: {this.Ancho}");
-            MessageBox.Show(this.Area().ToString());
+            Console.Write($@"Largo: {this.Largo}");
+            Console.Write($@"Largo: {this.Ancho}");
+            Console.Write(this.Area().ToString());
         }
 
         // Termina la clase rectangulo
