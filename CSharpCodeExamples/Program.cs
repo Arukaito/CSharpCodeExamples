@@ -29,19 +29,34 @@ namespace CSharpCodeExamples
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Starting the examples below
-            Encapsulation();
+           PublicAccess();
+           ProtectedAccess();
         }
 
         /// <summary>
         /// The entry point of my Encapsulation Classes
         /// </summary>
-        private static void Encapsulation()
+        private static void PublicAccess()
         {
+            Console.WriteLine(@"Public Access Modifier");
             Rectangulo r = new Rectangulo();
             r.Ancho = 1;
             r.Largo = 2;
             r.Area();
             r.Display();
+        }
+
+        /// <summary>
+        /// The protected access method .
+        /// </summary>
+        private static void ProtectedAccess()
+        {
+            // We call the protectedAccess class
+            // Nothing can be accessed because it is in a private access modifier
+           Encapsulation.ProtectedAccess r = new ProtectedAccess();
+            Console.WriteLine(@"Protected Modifier Example");
+            Console.WriteLine(@"Nothing Can Be Accessed Because its set to a Protected Modifier");
+            Console.ReadLine();
         }
     }
 }
